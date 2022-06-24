@@ -1,0 +1,171 @@
+
+/* Questo è il CSS per l'immagine di sfondo */
+
+body {
+ background-image: url('img/background.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+/* Questo è il CSS per il logo */
+
+.container
+{
+  height: 800px;
+  width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  background: rgba(98, 96, 96, 0.52);;
+}
+
+.container_logo
+{
+  width: 300px;
+  height: 110px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Questo è il CSS per il titolo */
+
+.container_title
+{
+ width: 900px;
+ height: 50px;
+
+ margin: auto;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.container_title h1
+{
+  font-size: 35px;
+  color: rgb(33, 214, 5);
+}
+
+/* Questo è il CSS per i bottoni */
+
+.container_buttons
+{
+
+  width: 900px;
+  height: 50px;
+  background-color: rgb(33, 214, 5);
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Questo è il CSS per lo stato della carica */
+
+.container1
+{
+  width: 600px;
+  height: 170px;
+  margin-left: 50px;
+}
+
+.container1 span
+{
+  color: white;
+}
+
+.container1 h2
+{
+  color: white;
+  font-size: 25px;
+}
+
+.container1 p
+{
+  color: white;
+  font-size: 15px;
+}
+
+.rettangolo_giallo
+{
+  height: 30px;
+  width: 400px;
+  background-color: rgb(247, 200, 0);
+  border-radius: 5px;
+}
+
+
+
+.container2
+{
+  width: 600px;
+  height: 170px;
+  margin-left: 50px;
+}
+
+.container2 span
+{
+  color: white;
+}
+
+.container2 h2
+{
+  color: white;
+  font-size: 25px;
+}
+
+.container2 p
+{
+  color: white;
+  font-size: 15px;
+}
+
+.rettangolo_verde
+{
+  height: 30px;
+  width: 600px;
+  background-color: rgb(33, 214, 5);
+  border-radius: 5px;
+}
+
+
+.container3
+{
+  width: 600px;
+  height: 170px;
+  margin-left: 50px;
+}
+
+.container3 span
+{
+  color: white;
+}
+
+.container3 h2
+{
+  color: white;
+  font-size: 25px;
+}
+
+.container3 p
+{
+  color: white;
+  font-size: 15px;
+}
+
+.rettangolo_rosso
+{
+  height: 30px;
+  width: 150px;
+  background-color: red;
+  border-radius: 5px;
+}
